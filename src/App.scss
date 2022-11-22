@@ -1,0 +1,59 @@
+.darkMode {
+  transition: 0.3s ease-in;
+  background: #000;
+}
+.darkMode h1 {
+  color: white;
+}
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 15px;
+  min-height: 100vh;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .toggle {
+      padding: 5px 10px;
+      border-radius: 20px;
+      outline: none;
+      border: 1px solid;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .search {
+    margin-bottom: 20px;
+    h1 {
+      margin-top: 0;
+    }
+
+    .search-content {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      border: 2px solid;
+      border-radius: 20px;
+      padding: 5px 10px;
+      background: rgb(175, 175, 175);
+
+      .search-inp {
+        border: none;
+        width: 100%;
+        outline: none;
+        background: transparent;
+      }
+      .search-icon:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

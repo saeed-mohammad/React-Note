@@ -1,0 +1,23 @@
+.note {
+  background: #fcf75e;
+  padding: 1rem;
+  min-height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+
+  .note-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .delete-icon {
+      color: rgb(255, 34, 0);
+    }
+    .delete-icon:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.notelist {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.note.new {
+  background: skyblue;
+
+  textarea {
+    background: transparent;
+    outline: none;
+    resize: none;
+    border: none;
+  }
+
+  .save {
+    border-radius: 15px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+  }
+  .save:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s linear;
+  }
+}
